@@ -1,6 +1,6 @@
-# Prefixed Combinations Generator
+# Phone Number Wordlist Generator
 
-This Python script generates combinations of 7 digits prefixed with a custom string and saves them to a file.
+This Python script generates a wordlist of 7-digit combinations prefixed with a custom string and saves them to a file
 
 ## Usage
 
@@ -23,4 +23,4 @@ Enter a prefix: 053
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/alwalxed/dominant-color-image-sort/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/alwalxed/phone-wordlist-generator/blob/main/LICENSE) file for details.
