@@ -1,0 +1,6 @@
+# Example Output File
+
+Had to empty it due to its large size.
+Use the script to generate it locally yourself.
+
+DELETE THIS FILE FIRST
