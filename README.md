@@ -2,7 +2,7 @@
 
 This Python script generates a wordlist of 7-digit combinations prefixed with a custom string and saves them to a file
 
-#### 👀 Usage
+#### 💡 Usage
 
 - Run the script and enter a prefix when prompted.
 - Combinations are saved in `<prefix>-XXX-XXXX.txt` in a 'numbers' directory relative to the script.
