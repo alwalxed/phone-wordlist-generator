@@ -1,4 +1,4 @@
-### Phone Number Wordlist Generator
+# Phone Number Wordlist Generator
 
 This Python script generates a wordlist of 7-digit combinations prefixed with a custom string and saves them to a file
 
