@@ -10,7 +10,7 @@ This Python script generates a wordlist of 7-digit combinations prefixed with a 
 ##### Example
 
 ```
-$ python generator.py
+python generator.py
 Enter a prefix: 053
 ✅ Successfully created combinations with prefix '053' in file numbers/053-XXX-XXXX.txt
 ```
