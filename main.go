@@ -30,7 +30,7 @@ type batch struct {
 
 func main() {
 	flag.Parse()
-	
+
 	if *help {
 		showHelp()
 		return
