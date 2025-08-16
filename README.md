@@ -1,20 +1,28 @@
-# Phone Number Wordlist Generator
+# Phonegen
 
-This Python script generates a wordlist of 7-digit combinations prefixed with a custom string and saves them to a file
+Generate 7-digit number combinations with custom prefix.
 
-## 💡 Usage
+## Installation
 
-- Run the script and enter a prefix when prompted.
-- Combinations are saved in `<prefix>-XXX-XXXX.txt` in a 'numbers' directory relative to the script.
+### From source
 
-## 📋 Example
-
-```
-python generator.py
-Enter a prefix: 053
-✅ Successfully created combinations with prefix '053' in file numbers/053-XXX-XXXX.txt
+```bash
+git clone https://github.com/alwalxed/phonegen
+cd phonegen
+go build
 ```
 
-## 📜 License
+### Direct install
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/alwalxed/phone-wordlist-generator/blob/main/LICENSE) file for details.
+```bash
+go install github.com/alwalxed/phonegen@latest
+```
+
+## Sample Output
+
+```
+$ phonegen
+Enter prefix: 055
+Generated 10000000 combinations in /home/user/.wordlist-generator/055-XXX-XXXX.txt
+Completed in: 345.141461ms
+```
